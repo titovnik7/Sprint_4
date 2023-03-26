@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 public class RentInfoPage {
     public static final By  DATE_FIELD = By.xpath(".//input[@placeholder = '* Когда привезти самокат']");
     public static final By  DURATION_DROPDOWN = By.xpath(".//span[@class = 'Dropdown-arrow']");

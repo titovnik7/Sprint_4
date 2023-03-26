@@ -5,6 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+
 public class MainPage {
     public static final String PAGE_URL = "https://qa-scooter.praktikum-services.ru/";
     private static final By CREATE_ORDER_BUTTON_TOP = By.xpath(".//button[@class = 'Button_Button__ra12g']");
