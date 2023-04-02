@@ -32,7 +32,5 @@ public class MainPage {
         WebElement element = driver.findElement(By.xpath(".//div[@class='Home_FourPart__1uthg']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
         driver.findElement(By.xpath("//div[text()='" + question + "']")).click();
-
     }
-
 }

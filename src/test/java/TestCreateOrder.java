@@ -21,7 +21,6 @@ public class TestCreateOrder {
     private final String orderDate;
     private final String comment;
 
-
     public TestCreateOrder(boolean isButtonTop, String userName, String userSurname, String userAddress, String phoneNumber, String orderDate, String comment) {
         this.isButtonTop = isButtonTop;
         this.userName = userName;
@@ -30,7 +29,6 @@ public class TestCreateOrder {
         this.phoneNumber = phoneNumber;
         this.orderDate = orderDate;
         this.comment = comment;
-
     }
     @Parameterized.Parameters
     public static Object[][] getData() {
@@ -43,7 +41,6 @@ public class TestCreateOrder {
     @Before
     public void setup() {
         driver = new ChromeDriver();
-
     }
 
     @Test
