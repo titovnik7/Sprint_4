@@ -24,8 +24,6 @@ public class RentInfoPage {
     public void enterDuration() {
         driver.findElement(DURATION_DROPDOWN).click();
         driver.findElement(By.xpath(".//*[text() = 'двое суток']")).click();
-        //new WebDriverWait(driver, 3).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class = 'Dropdown-menu']")));
-
     }
     public void chooseColour() {
         driver.findElement(BLACK_COLOUR_SCOOTER).click();
