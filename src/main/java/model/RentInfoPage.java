@@ -41,6 +41,4 @@ public class RentInfoPage {
     public boolean checkSuccessOfTheOrder() {
         return driver.findElement(ORDER_DONE).isDisplayed();
     }
-
-
 }

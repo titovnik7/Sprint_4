@@ -3,7 +3,6 @@ package model;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-
 public class UserInfoPage {
 
     public static final By NAME_FIELD = By.xpath(".//input[@placeholder = '* Имя']");
