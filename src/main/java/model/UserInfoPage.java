@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class UserInfoPage {
-
     public static final By NAME_FIELD = By.xpath(".//input[@placeholder = '* Имя']");
     public static final By SURNAME_FIELD = By.xpath(".//input[@placeholder = '* Фамилия']");
     public static final By ADDRESS_FIELD = By.xpath(".//input[@placeholder = '* Адрес: куда привезти заказ']");

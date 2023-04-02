@@ -33,5 +33,4 @@ public class MainPage {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
         driver.findElement(By.xpath("//div[text()='" + question + "']")).click();
     }
-
 }

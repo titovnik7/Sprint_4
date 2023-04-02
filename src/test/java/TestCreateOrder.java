@@ -41,7 +41,6 @@ public class TestCreateOrder {
     @Before
     public void setup() {
         driver = new ChromeDriver();
-
     }
 
     @Test
